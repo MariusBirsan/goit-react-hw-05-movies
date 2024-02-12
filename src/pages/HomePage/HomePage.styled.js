@@ -1,0 +1,49 @@
+import styled from 'styled-components';
+
+export const WrapHomePage = styled.div`
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 20px;
+`;
+
+export const TitleHomePage = styled.h1`
+  font-family: 'Prompt', sans-serif;
+  display: block;
+  font-size: 36px;
+  font-weight: 700;
+  color: #0e1841;
+  padding-left: 20px;
+  margin: 0 0 30px 0;
+`;
+export const ListPopularMovies = styled.ul`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  margin: 0;
+  list-style-type: none;
+`;
+export const PopularMovie = styled.li`
+  min-width: 320px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 5px;
+`;
+export const TitlePopMovie = styled.p`
+  font-family: 'Prompt', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #0e1841;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  &:hover,
+  :focus,
+  :active {
+    color: #249fa3;
+  }
+`;
